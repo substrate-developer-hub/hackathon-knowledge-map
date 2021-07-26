@@ -1,4 +1,4 @@
-# Lab 6 - Tutorial of building a Substrate Kitties dApp
+# Lab 6 - Tutorial: Building a Substrate Kitties dApp
 
 ## Overview
 

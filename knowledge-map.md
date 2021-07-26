@@ -207,6 +207,8 @@ In [Substrate Developer Hub](https://substrate.dev/), we have a thorough coverag
 
 - [Runtime Development: Metadata](https://substrate.dev/docs/en/knowledgebase/runtime/metadata), this doc describes the API opened from the chain allowing external parties query what API is open for the chain. Polkadot JS API makes use of this chain metadata to know what queries and functions are available from the chain to calls.
 
+👉 **Complete [Quiz #6: Using Polkadot-JS API](quizzes/06-polkadot-js-api.md)**.
+
 👉 **Complete [Lab #7: Using Polkadot-JS API](labs/07-polkadot-js-api.md)**.
 
 ## Smart Contract
@@ -219,6 +221,8 @@ In Substrate, you can program smart contract in ink!.
 
 - Learn about [smart contract development in Substrate](https://substrate.dev/docs/en/knowledgebase/smart-contracts/)
 - Learn about [Smart contract development using ink!](https://substrate.dev/docs/en/knowledgebase/smart-contracts/contracts-pallet)
+
+👉 **Complete [Quiz #7: Using ink!](quizzes/07-using-ink!.md)**.
 
 ## What We Do Not Cover
 

@@ -1,4 +1,4 @@
-# Lab 5 - Tutorial: Add a Pallet
+# Lab 5 - Tutorial: Building a Proof-of-existence (PoE) dApp
 
 ## Task
 
