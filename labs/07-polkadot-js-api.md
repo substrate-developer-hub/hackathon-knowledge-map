@@ -1,4 +1,4 @@
-# Lab 3 - Using the Polkadot JS API
+# Lab 7 - Using Polkadot JS API
 
 ## Overview
 

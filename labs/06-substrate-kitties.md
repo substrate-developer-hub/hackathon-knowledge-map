@@ -1,4 +1,4 @@
-# Lab 2 - Substrate Kitties dApp
+# Lab 6 - Substrate Kitties dApp
 
 ## Overview
 

@@ -8,10 +8,10 @@ This quiz covers the following parts of the Substrate Knowledge Map:
 
 ### 1. What is one key difference between Substrate runtime development and Smart Contract developement ?
 
-A. Substrate gives developers total control on the blockchain
-B.
-C.
-D.
+- [ ] A. Substrate gives developers total control on the blockchain
+- [ ] B.
+- [ ] C.
+- [ ] D.
 
 ### 2. What is a key characteristic that Substrate gives runtime developers?
 
