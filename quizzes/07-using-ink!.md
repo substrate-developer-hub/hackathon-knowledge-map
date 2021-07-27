@@ -1,6 +1,7 @@
 # Quiz 7: Contracts
 
 ## Overview
+
 This quiz covers the following parts of the Substrate Knowledge Map:
 
 - [Smart Contract](../../knowledge-map#smart-contract)
@@ -21,7 +22,6 @@ This quiz covers the following parts of the Substrate Knowledge Map:
 - [x] It embeds a SputnikVM EVM engine to run solidity ABI code.
 - [ ] It implements the EVM engine specification in `pallet-contracts`.
 - [ ] It creates a simulated environment for running EVM code, and put the final computed result back to the on-chain stroage.
-
 
 ### 3. What's right about Smart Contract in Substrate?
 
