@@ -7,62 +7,50 @@ This quiz covers the following parts of the Substrate Knowledge Map:
 
 # Questions
 
-### 1. Polkadot-JS App 和 Polkadot-JS API 的区别是什么? (把适用的全钩上)
+### 1. What are the differences between Polkadot-JS Apps and Polkadot-JS API? Check all that apply.
 
-  ```
-  [ ] 名字上一看就有不同，一个尾缀是 App,一个尾缀是 API，你瞎了吗？
-  [ ] Polkadot-JS App 提供了官方的 JS 库连去 Substrate 网络，而 Polkadot-JS API 则是官方的前端与 Substrate 网络 交互。
-  [ ] Polkadot-JS App 是官方的前端与 Substrate 网络交互，而 Polkadot-JS API 则提供了官方的 JS 库连去 Substrate 网络。
-  [ ] Polkadot-JS App 是官方的 Polkadot 钱包，而 Polkadot-JS API 则提供了官方的 JS 库连去 Substrate 网络。
-  [ ] Polkadot-JS App 是官方的 Polkadot 钱包，而 Polkadot-JS API 则提供了官方的 JS 库连去现在主流的区块链网络 (Substrate，以太坊，比特币特)。
-  ```
+  - [ ] Polkadot-JS Apps is the official JS API connecting with Substrate-based networks.
+  - [ ] Polkadot-JS Apps is a front-end and wallet to interact with Substrate-based networks.
+  - [ ] Polkadot-JS API is the official JS API connecting with Substrate-based networks.
+  - [ ] Polkadot-JS API is a front-end and wallet to interact with Substrate-based networks.
+  - [ ] Polkadot-JS API, in addition to Substrate-based networks, can also connect to other mainstream blockchains such as Bitcoin and Ethereum.
 
-### 2. 你可以在 Polkadot-JS App 内做什么操作? (把适用的全勾上)
+### 2. What operations could you perform using Polkadot-JS Apps? Check all that apply.
 
-  ```
-  [ ] 查看 Substrate 网络 区块信息
-  [ ] 对 Substrate 网络作出交易 (Extrinsics)
-  [ ] 有一个 javascript 编辑器，可对 Substrate 网络写出基础 javascript 与之互动
-  [ ] 是 Substrate 的水笼头 (faucet), 可取得小额 Substrate 的代币
-  [ ] 可以对一个信息以某个帐号作签名
-  ```
+  - [ ] Inspect the block information of a Substrate network.
+  - [ ] Send extrinsics to a Substrate network.
+  - [ ] With an embedded javascript editor, you could write javascript to interact with the connected Substrate network.
+  - [ ] Can act as a faucet of a Substrate network, and acquire a small amount of Substrate tokens.
+  - [ ] Can sign an arbitrary message with a user account.
 
-### 3. 如果在 Substrate 端加了自定义类型，我们在 Polkadot-JS App 里需要作什么才能支持连到这个 Substrate 节点？
+### 3. If you added custom data type in Substrate runtime, what do you need to do on Polkadot-JS Apps side to for the Apps to support this Substrate network?
 
-  ```
-  [ ] 在 Setting 里, Metadata tab 里，加自定义的 JSON 对象。
-  [ ] 在 Setting 里, Developer tab 里，加自定义的 XML 对象。
-  [ ] 在 Setting 里, Developer tab 里，加自定义的 JSON 对象。
-  [ ] 在 Toolbox 里, Sign message tab 里，先发一个签了名的信息作核实。
-  [ ] 在 Toolbox 里, Verify signature tab 里，先发一个签了名的信息作核实。
-  ```
+  - [ ] In **Setting** > **Metadata** tab, add the custom data definition in JSON form.
+  - [ ] In **Setting** > **Developer** tab, add the custom data definition in XML form.
+  - [ ] In **Setting** > **Developer** tab, add the custom data definition in JSON form.
+  - [ ] In **Toolbox** > **Sign message** tab, sign a message with the sudo user account for confirmation.
+  - [ ] In **Toolbox** > **Verify signature** tab, verify the signature coming from a sudo user account for confirmation.
 
-### 4. 在 Polkadot-JS API 里，数字默认是用哪个类型代表？
+### 4. In Polkadot-JS API, what datatype is used to represent a number (i.e. u64, i64, u128, i128) on Substrate network?
 
-  ```
-  [ ] JS 里默认的数字类型
-  [ ] 字付串
-  [ ] [bn.js](https://github.com/indutny/bn.js/)
-  [ ] [bignumber.js](https://github.com/MikeMcl/bignumber.js/)
-  [ ] [decimal.js](https://github.com/MikeMcl/decimal.js/)
-  ```
+  - [ ] The default data type Number in javascript.
+  - [ ] String
+  - [ ] [bn.js](https://github.com/indutny/bn.js/)
+  - [ ] [bignumber.js](https://github.com/MikeMcl/bignumber.js/)
+  - [ ] [decimal.js](https://github.com/MikeMcl/decimal.js/)
 
-### 5. 我要查询 Substrate 链上的存储变量,并订阅它的变更，应该用以下哪个方法？
+### 5. What is the proper way to query a storage value in Substrate chain and subscribed to its changes?
 
-  ```
-  [ ] `const val = await api.query.my_pallet.storage`
-  [ ] `const unsub = await api.query.my_pallet.storage(value => {...})`
-  [ ] `const val = await api.consts.my_pallet.const`
-  [ ] `const val = await api.tx.my_pallet.tx().signAndSend()`
-  [ ] `const val = await api.tx.my_pallet.tx().signAndSend(value => {...})`
-  ```
+  - [ ] `const val = await api.query.my_pallet.storage`
+  - [ ] `const unsub = await api.query.my_pallet.storage(value => {...})`
+  - [ ] `const val = await api.consts.my_pallet.const`
+  - [ ] `const val = await api.tx.my_pallet.tx().signAndSend()`
+  - [ ] `const val = await api.tx.my_pallet.tx().signAndSend(value => {...})`
 
-### 6. 我要对 Substrate 链上发出一次交易，但 **不需要** 订阅交易处理状态，应该用以下哪个方法？
+### 6. What is the proper way to send an extrinsic to a Substrate network, **GIVEN THAT** I also don't need to subscribe to the on-chain transaction status.
 
-  ```
-  [ ] `const val = await api.query.my_pallet.storage`
-  [ ] `const unsub = await api.query.my_pallet.storage(value => {...})`
-  [ ] `const val = await api.consts.my_pallet.const`
-  [ ] `const val = await api.tx.my_pallet.tx().signAndSend()`
-  [ ] `const val = await api.tx.my_pallet.tx().signAndSend(value => {...})`
-  ```
+  - [ ] `const val = await api.query.my_pallet.storage`
+  - [ ] `const unsub = await api.query.my_pallet.storage(value => {...})`
+  - [ ] `const val = await api.consts.my_pallet.const`
+  - [ ] `const val = await api.tx.my_pallet.tx().signAndSend()`
+  - [ ] `const val = await api.tx.my_pallet.tx().signAndSend(value => {...})`
