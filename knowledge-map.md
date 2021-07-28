@@ -68,8 +68,6 @@ In summary, runtime development:
 
 For more detail, refer to [**Smart Contract - Overview**](https://substrate.dev/docs/en/knowledgebase/smart-contracts/overview). Content on the above partially came from this resources.
 
-👉 **Complete [Quiz #1: Part 1](quizzes/01/a-why-substrate.md)**
-
 ### Navigating Our Documentations
 
 We have a few documentation sites. One key in learning Substrate is knowing how to navigate through these sites and find the information you need. Sometimes the objective is to learn more about a certain concept, other times it is to look for code to perform certain tasks.
@@ -92,7 +90,7 @@ If you face that technical questions and need support, feel free to join the [Su
 
 [**Polkadot JS API doc**](https://polkadot.js.org/docs/api/), documents on how to use Polkadot-JS API, a set of javascript API allowing developers having their dApps or frontend connect to Substrate-based blockchains to query and send transactions over.
 
-👉 **Complete [Quiz #1: Part 2](quizzes/01/b-navigating-substrate-devhub.md)**
+👉 **Complete [Quiz #1](quizzes/01-overview.md)**
 
 ## Basics
 
@@ -104,8 +102,6 @@ Also refer to:
 
 - [Setup Substrate in unix-based machines](https://substrate.dev/docs/en/knowledgebase/getting-started/)
 - [Setup Substrate in Windows](https://substrate.dev/docs/en/knowledgebase/getting-started/windows-users)
-
-👉 **Complete [Quiz #2: Part 1](quizzes/02/a-setting-up-local-environment.md)**
 
 👉 **Complete [Lab #1: Run a Substrate Node](labs/01-run-a-substrate-node.md)**
 
@@ -139,6 +135,8 @@ You will also need to create an account. Here contains [detail steps on account 
 
 👉 **Complete [Lab #3: Create an Account](labs/03-create-account.md)**
 
+👉 **Complete [Quiz #2](quizzes/02-basics.md)**
+
 ## Preliminaries
 
 You need to know Rust programming language and have a good understanding on how blockchain work in order to understanding what's going on developing with Substrate. The following are resources to brush up on these areas.
@@ -152,6 +150,8 @@ If you are new to Rust, or need a brush up on your Rust knowledge, please refer 
 - ch 1 - 10: These chapters cover the foundational knowledge of programming in Rust
 - ch 13: On iterators and closures
 - ch 18 - 19: On advanced traits, advanced types. Learn a bit about macro as well. You will not necessarily writing your own macro, but will be using a lot of Substrate built-in macro to write your blockchain runtime.
+
+👉 **Complete [Quiz #3](quizzes/03-rust.md)**
 
 ### How Blockchain Works
 
@@ -172,6 +172,8 @@ In this document, we assume you will develop Substrate runtime with [FRAME](http
 Each node has many components that manage things like the transaction queue, communicating over a P2P network, reaching consensus on the state of the blockchain, and the chain's actual runtime logic (aka the blockchain runtime). Each aspect of the node is interesting in its own right, and the runtime is particularly interesting because it contains the business logic (aka "state transition function") that codifies the chain's functionality. The runtime contains a collection of pallets that are configured to work together.
 
 On the node level, we leverage on [libp2p](https://libp2p.io/) for the p2p networking layer. We also put the transaction pool, consensus mechanism, and underlying data storage (a key-value database) on the node level. These components all work "under the hood", and in this knowledge map we will not cover them much except just mentioning their existence.
+
+👉 **Complete [Quiz #4](quizzes/04-architecture.md)**
 
 ### Runtime Development Topics
 
@@ -199,6 +201,8 @@ In [Substrate Developer Hub](https://substrate.dev/), we have a thorough coverag
 
 👉 **Complete [Lab #6: Tutorial of building a Substrate Kitties dApp](labs/06-substrate-kitties.md)**.
 
+👉 **Complete [Quiz #5](quizzes/05-runtime-development.md)**
+
 ## Polkadot JS API
 
 [Polkadot JS API](https://polkadot.js.org/docs/api/) is the javascript API for Substrate. So you can build a javascript front end or utility and interact with Substrate-based blockchain.
@@ -207,9 +211,9 @@ In [Substrate Developer Hub](https://substrate.dev/), we have a thorough coverag
 
 - [Runtime Development: Metadata](https://substrate.dev/docs/en/knowledgebase/runtime/metadata), this doc describes the API opened from the chain allowing external parties query what API is open for the chain. Polkadot JS API makes use of this chain metadata to know what queries and functions are available from the chain to calls.
 
-👉 **Complete [Quiz #6: Using Polkadot-JS API](quizzes/06-polkadot-js-api.md)**.
-
 👉 **Complete [Lab #7: Using Polkadot-JS API](labs/07-polkadot-js-api.md)**.
+
+👉 **Complete [Quiz #6: Using Polkadot-JS API](quizzes/06-polkadot-js-api.md)**.
 
 ## Smart Contract
 
