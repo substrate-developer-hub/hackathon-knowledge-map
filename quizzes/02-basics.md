@@ -4,7 +4,7 @@
 
 This quiz covers the following parts of the Substrate Knowledge Map:
 
-- [Setup Your Local Development Environment](../../knowledge-map#setup-your-local-development-environment/) 
+- [Setup Your Local Development Environment](../../knowledge-map#setup-your-local-development-environment/)
 
 - [Interact with a Substrate Network using Polkadot-JS Apps](../../knowledge-map#interact-with-a-substrate-network-using-polkadot-JS-Apps/)
 

@@ -3,6 +3,7 @@
 ## Overview
 
 This quiz covers the following parts of the Substrate Knowledge Map:
+
 - [Polkadot JS API](../../knowledge-map#polkadot-js-api)
 
 ### 1. What are the differences between Polkadot-JS Apps and Polkadot-JS API? Check all that apply.

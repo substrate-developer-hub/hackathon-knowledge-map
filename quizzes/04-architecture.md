@@ -3,6 +3,7 @@
 ## Overview
 
 This quiz covers the following parts of the Substrate Knowledge Map:
+
 - [High Level Architecture](../../knowledge-map#substrate-high-level-architecture)
 
 ### 1. A Substrate client contains ... Check all that apply.

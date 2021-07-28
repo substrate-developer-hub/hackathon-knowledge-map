@@ -25,5 +25,5 @@ This quiz covers the following parts of the Substrate Knowledge Map:
 
 - [ ] You can deploy a contract once and instantiate it multiple times.
 - [ ] When you build a contract, three files are generated, a wasm binary, the native binary, and the metadata files.
-- [ ] Contracts are intended to be used by any user on a public network. But a contract can  specified certain other contracts to directly modify its own storage.
+- [ ] Contracts are intended to be used by any user on a public network. But a contract can specified certain other contracts to directly modify its own storage.
 - [ ] A contract account is charged proportionally to the amount of storage its account uses. When a contract's balance goes below a defined limit, the contract's account is turned into a "tombstone" and its storage is cleaned up.

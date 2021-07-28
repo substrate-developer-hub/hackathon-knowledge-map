@@ -3,7 +3,8 @@
 ## Overview
 
 This quiz covers the following parts of the Substrate Knowledge Map:
-- [Rust](../../knowledge-map#rust/) 
+
+- [Rust](../../knowledge-map#rust/)
 
 ### 1. What are some of Rust's key strengths?
 
@@ -23,37 +24,40 @@ This quiz covers the following parts of the Substrate Knowledge Map:
 ### 3. Which of these is correct syntax for structs in Rust? Check all that apply
 
 - [ ] A.
-    ```
-    struct Pair(i32, f32);
-    ```
+
+  ```
+  struct Pair(i32, f32);
+  ```
 
 - [ ] B.
-    ```
-    #[derive(Encode, Decode, Default, Clone, PartialEq)]
-    pub struct MyStruct {
-        some_number: u32,
-        optional_number: Option<u32>,
-    }
-    ```
+
+  ```
+  #[derive(Encode, Decode, Default, Clone, PartialEq)]
+  pub struct MyStruct {
+      some_number: u32,
+      optional_number: Option<u32>,
+  }
+  ```
 
 - [ ] C.
-    ```
-    #[pallet::weight(10_000 + T::DbWeight::get().writes(1))]
-    pub fn do_something(origin: OriginFor<T>, something: u32) -> DispatchResult {
-        let who = ensure_signed(origin)?;
-        <Something<T>>::put(something);
-        Ok(())
-    }
-    ```
+
+  ```
+  #[pallet::weight(10_000 + T::DbWeight::get().writes(1))]
+  pub fn do_something(origin: OriginFor<T>, something: u32) -> DispatchResult {
+      let who = ensure_signed(origin)?;
+      <Something<T>>::put(something);
+      Ok(())
+  }
+  ```
 
 - [ ] D.
-    ```
-    struct Person {
-        char name[30];
-        int citizenship;
-        int age;
-    }
-    ```
+  ```
+  struct Person {
+      char name[30];
+      int citizenship;
+      int age;
+  }
+  ```
 
 ### 4. What is true about unit testing in Rust?
 
@@ -63,7 +67,7 @@ This quiz covers the following parts of the Substrate Knowledge Map:
 - [ ] D. Only A and C.
 - [ ] E. All of the above
 
-### 5. "Pallets" in FRAME are really just _ .
+### 5. "Pallets" in FRAME are really just \_ .
 
 - [ ] A. Modules denoted `mod` as Rust understands them.
 - [ ] B. Powered by a collection of macros that use Substrate's core libraries for developers to easily access.

@@ -1,18 +1,18 @@
-const { ApiPromise, WsProvider, Keyring } = require('@polkadot/api');
+const { ApiPromise, WsProvider, Keyring } = require("@polkadot/api");
 
 // Substrate connection config
-const WEB_SOCKET = 'ws://localhost:9944';
+const WEB_SOCKET = "ws://localhost:9944";
 
 // This script will wait for n secs before stopping itself
 const LASTING_SECS = 30;
 
-const ALICE = '//Alice';
-const BOB = '//Bob';
+const ALICE = "//Alice";
+const BOB = "//Bob";
 
 // This is 1 Unit
 const TX_AMT = 1000000000000000;
 
-const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 const connectSubstrate = async () => {
   const wsProvider = new WsProvider(WEB_SOCKET);
@@ -26,12 +26,12 @@ const connectSubstrate = async () => {
 const submitTx = async (api, src, dest, amt) => {
   // TODO #5: Implement this function to transfer `amt` from `src` account to `dest` account,
   //   returning the transaction unsubcription handler.
-}
+};
 
 const main = async () => {
   const api = await connectSubstrate();
-  const keyring = new Keyring({ type: 'sr25519' });
-  console.log('Connected to Substrate');
+  const keyring = new Keyring({ type: "sr25519" });
+  console.log("Connected to Substrate");
 
   const alice = keyring.addFromUri(ALICE);
 
@@ -51,7 +51,7 @@ const main = async () => {
   // TODO #4: From the `aliceAccount`, get the free balance of Alice, and display it in human readable form.
   const aliceFreeBalance = null;
 
-  console.log(`Alice free balance in readable format: ${aliceFreeBalance}`)
+  console.log(`Alice free balance in readable format: ${aliceFreeBalance}`);
 
   // TODO #5: Implement the function body above
   submitTx(api, alice, bob, TX_AMT);
@@ -71,7 +71,7 @@ main()
     console.log("successfully exited");
     process.exit(0);
   })
-  .catch(err => {
-    console.log('error occur:', err);
+  .catch((err) => {
+    console.log("error occur:", err);
     process.exit(1);
-  })
+  });

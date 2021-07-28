@@ -11,7 +11,7 @@
     "start:dev": "nodemon --use_strict --inspect index.js",
     "start:debug": "nodemon --use_strict --inspect --inspect-brk index.js"
   },
- "dependencies": {
+  "dependencies": {
     "@polkadot/api": "^4.16.2",
     "@polkadot/keyring": "^6.10.1",
     "@polkadot/util": "^6.10.1",

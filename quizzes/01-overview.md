@@ -4,7 +4,7 @@
 
 This quiz covers the following parts of the Substrate Knowledge Map:
 
-- [Why Substrate?](../../knowledge-map#why-substrate-substrate-blockchain-vs-smart-contract/) 
+- [Why Substrate?](../../knowledge-map#why-substrate-substrate-blockchain-vs-smart-contract/)
 
 - [Navigating Our Documentations](../../knowledge-map#navigating-our-documentations/)
 
