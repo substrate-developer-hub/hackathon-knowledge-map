@@ -2,7 +2,7 @@
 
 - [Substrate Knowledge Map for Hackathon Participants](#substrate-knowledge-map-for-hackathon-participants)
   - [Overview](#overview)
-    - [Why Substrate? \(Substrate Blockchain vs Smart Contract\)](#why-substrate-substrate-blockchain-vs-smart-contract)
+    - [Why Substrate? \(Substrate Blockchain Runtime vs Smart Contract\)](#why-substrate-substrate-blockchain-runtime-vs-smart-contract)
     - [Navigating Our Documentations](#navigating-our-documentations)
   - [Basics](#basics)
     - [Setup Your Local Development Environment](#setup-your-local-development-environment)
@@ -27,7 +27,7 @@ The following is an overview of knowledge map what a hackathon participant need 
 
 ## Overview
 
-### Why Substrate? (Substrate Blockchain vs Smart Contract)
+### Why Substrate? (Substrate Blockchain Runtime vs Smart Contract)
 
 One question we often get is why learning Substrate framework when we can write smart contracts.
 
@@ -80,7 +80,7 @@ We have a few documentation sites. One key in learning Substrate is knowing how 
 
 - [Tutorials](https://substrate.dev/en/tutorials): Hand-on tutorials for developers to follow. **The first SIX tutorials are showing the fundamentals in Substrate and are recommended for every Substrate learner to go through.**
 
-- [Recipes](https://substrate.dev/recipes) / [How-to Guides](https://substrate.dev/substrate-how-to-guides/): It is like the O'Reilly cookbook series written in a task-oriented way for readers to get the job done, e.g. setting up proper weight functions for extrinsics, using off-chain workers to fetch HTTP requests, etc. It can also be read from cover-to-cover for developers to learn advanced Substrate development techniques. We are slowly migrating content over from Recipes to How-to Guides.
+- [How-to Guides](https://substrate.dev/substrate-how-to-guides/) / [Recipes](https://substrate.dev/recipes): It is like the O'Reilly cookbook series written in a task-oriented way for readers to get the job done, e.g. setting up proper weight functions for extrinsics, using off-chain workers to fetch HTTP requests, etc. It can also be read from cover-to-cover for developers to learn advanced Substrate development techniques. We are slowly migrating content over from Recipes to How-to Guides.
 
 - [API docs](https://substrate.dev/rustdocs): Substrate API references.
 

@@ -5,40 +5,24 @@
 This quiz covers the following parts of the Substrate Knowledge Map:
 - [Setup Your Local Development Environment](../../knowledge-map#setup-your-local-development-environment/) 
 
-# Questions
+### 1. What language compiler/interpreter do you need to install in your local machine to compile Substrate?
 
-### 1.
+- [ ] A. `gcc`
+- [ ] B. `node`
+- [ ] C. `rustc`
+- [ ] D. `ruby`
+- [ ] E. `python`
 
-A.
-B.
-C.
-D.
+### 2. What OS platform could you use to compile Substrate? Check all that apply.
 
-### 2.
+- [ ] A. Windows
+- [ ] B. macOS
+- [ ] C. Linux
+- [ ] D. Android
 
-A. 
-B.
-C.
-D.
+### 3. Why do we need both rust stable and rust nightly version installed to compile Substrate?
 
-### 3.
-
-A. 
-B. 
-C.
-D.
-
-### 4. 
-
-A.
-B.
-C.
-D.
-
-### 5. 
-
-A.
-B.
-C.
-D.
-
+- [ ] A. We want to make sure our binaries support the upcoming features in rust nightly version.
+- [ ] B. To test our compiled binaries support features in both rust stable and rust nightly.
+- [ ] C. We want to build Substrate projects in both native binary (using rust stable), and Wasm binary (which requires rust nightly).
+- [ ] D. We want both binaries to verify the stability of our code.

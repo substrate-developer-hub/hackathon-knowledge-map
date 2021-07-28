@@ -5,8 +5,6 @@
 This quiz covers the following parts of the Substrate Knowledge Map:
 - [Rust](../../knowledge-map#rust/) 
 
-# Questions
-
 ### 1. What are some of Rust's key strengths?
 
 - [ ] A. Rust avoids 70% of all safety issues present in C / C++, and most memory issues.
@@ -22,22 +20,40 @@ This quiz covers the following parts of the Substrate Knowledge Map:
 - [ ] C. Macros allow metaprogramming.
 - [ ] D. All of the above.
 
-### 3. Which of these is correct syntax for structs in Rust?
+### 3. Which of these is correct syntax for structs in Rust? Check all that apply
 
 - [ ] A.
-    ```rust
+    ```
     struct Pair(i32, f32);
     ```
 
 - [ ] B.
-    ```rust
-    struct Point {
-        x: f32,
-        y: f32,
+    ```
+    #[derive(Encode, Decode, Default, Clone, PartialEq)]
+    pub struct MyStruct {
+        some_number: u32,
+        optional_number: Option<u32>,
     }
     ```
 
-- [ ] C. Both A and B.
+- [ ] C.
+    ```
+    #[pallet::weight(10_000 + T::DbWeight::get().writes(1))]
+    pub fn do_something(origin: OriginFor<T>, something: u32) -> DispatchResult {
+        let who = ensure_signed(origin)?;
+        <Something<T>>::put(something);
+        Ok(())
+    }
+    ```
+
+- [ ] D.
+    ```
+    struct Person {
+        char name[30];
+        int citizenship;
+        int age;
+    }
+    ```
 
 ### 4. What is true about unit testing in Rust?
 
@@ -49,7 +65,8 @@ This quiz covers the following parts of the Substrate Knowledge Map:
 
 ### 5. "Pallets" in FRAME are really just _ .
 
-- [ ] A. modules denoted `mod` as Rust understands thems.
-- [ ] B. powered by a collection of macros that use Substrate's core libraries for developers to easily access.
-- [ ] C. a way to split up runtime logic.
-- [ ] D. All of the above.
+- [ ] A. Modules denoted `mod` as Rust understands them.
+- [ ] B. Powered by a collection of macros that use Substrate's core libraries for developers to easily access.
+- [ ] C. A modular way to split up runtime logic, so they can be composed for different uses.
+- [ ] D. They have to fulfill a certain structure to have the storage and the pallet runtime logic defined.
+- [ ] E. All of the above.

@@ -3,48 +3,40 @@
 ## Overview
 
 This quiz covers the following parts of the Substrate Knowledge Map:
-- [Navigating Our Documentations](../../knowledge-map#navigating-our-documentations/) 
 
-# Questions
+- [Navigating Our Documentations](../../knowledge-map#navigating-our-documentations/)
 
-### 1. What is the go-to place for me to learn about Subtrate concepts?
+### 1. I want to learn about a certain Subtrate concept? Which type of documentation should I look into?
 
-A. The Substrate Knowledgebase 
-B. 
-C.
-D.
+- [ ] A. Knowledge Base
+- [ ] B. Tutorials
+- [ ] C. How-to Guides / Recipes
+- [ ] D. API docs
 
-### 2. Where would I go to read the source code and documentation of Substrate?
+### 2. I have a particular problem at hand and want to check if there is a solution or someone has solved a similar problem before. Which type of documentation should I look into?
 
-A. API documentation Rust docs
-B.
-C.
-D.
+- [ ] A. Knowledge Base
+- [ ] B. Tutorials
+- [ ] C. How-to Guides / Recipes
+- [ ] D. API docs
 
-### 3. I want to get up and running with Substrate. Where do I start? 
+### 3. I am new to Substrate and want to try out Substrate while working on some guided projects. Which type of documentation should I look into?
 
-A. Tutorials 
-B.
-C.
-D.
+- [ ] A. Knowledge Base
+- [ ] B. Tutorials
+- [ ] C. How-to Guides / Recipes
+- [ ] D. API docs
 
+### 4. I want to dive into the details of a certain pallet / function, and the type of parameters I need to pass when integrating that pallet / function. Which type of documentation should I look into?
 
-### 4. To learn about how to do something specific, where would I go?
+- [ ] A. Knowledge Base
+- [ ] B. Tutorials
+- [ ] C. How-to Guides / Recipes
+- [ ] D. API docs
 
-A. Recipes / How-to Guides
-B.
-C.
-D.
+### 5. I want to start a new Substrate project, what repo should I clone, or start as a template, so that I can focus on writing my blockchain runtime logic?
 
-### 5. What are Rust docs?
-
-A. The collection of Rust crates and libraries published to crates.io
-B. Where Substrate's source code lives.
-C. Substrate's documentation hub.
-D. Both A and B.
-E. All of the above.
-
-
-
-
-
+- [ ] A. Cumulus (https://github.com/paritytech/cumulus)
+- [ ] B. Substrate Node Template (https://github.com/substrate-developer-hub/substrate-node-template)
+- [ ] C. Substrate (https://github.com/paritytech/substrate)
+- [ ] D. Polkadot (https://github.com/paritytech/polkadot)
