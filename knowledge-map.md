@@ -114,10 +114,12 @@ Substrate runtime development. The site is consisted of:
   **The first SIX tutorials are showing the fundamentals in Substrate and are recommended for
   every Substrate learner to go through.**
 
-- [How-to Guides](https://substrate.dev/substrate-how-to-guides/) It is like the O'Reilly cookbook
-  series written in a task-oriented way for readers to get the job done, e.g. setting up proper
-  weight functions for extrinsics, using off-chain workers to fetch HTTP requests, etc. It can also
-  be read from cover-to-cover for developers to learn advanced Substrate development techniques.
+- [How-to Guides](https://substrate.dev/substrate-how-to-guides/) /
+  [Recipes](https://substrate.dev/recipes): It is like the O'Reilly cookbook series written in a
+  task-oriented way for readers to get the job done, e.g. setting up proper weight functions for
+  extrinsics, using off-chain workers to fetch HTTP requests, etc. It can also be read from
+  cover-to-cover for developers to learn advanced Substrate development techniques. We are slowly
+  migrating content over from Recipes to How-to Guides.
 
 - [API docs](https://substrate.dev/rustdocs): Substrate API references.
 
