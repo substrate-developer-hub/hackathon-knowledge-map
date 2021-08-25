@@ -37,78 +37,88 @@
 
 # Substrate Knowledge Map for Hackathon Participants
 
-The following is a knowledge covering what Substrate hackathon participants needs to know in order to
-develop a non-trivial application for a hackathon submission. 
+The following is a knowledge map covering what Substrate hackathon participants need to know in order to
+develop a non-trivial application for their hackathon submissions. 
 
-The map covers 6 main sections: **Introduction, Basics, Preliminaries, Runtime Development,Polkadot JS API and Smart Contracts.** Each section contains basic information and links to corresponding documentation for you to dig deeper in each topic. 
+The map covers 6 main sections: 
 
-Within each section, you will find a mix of quizzes and labs to test your knowledge as your progress through the map. In this way, this knowledge map is designed to help you consolidate what you've learnt and put it to practice with some hands-on activities.
+1. [Introduction](#introduction)
+2. [Basics](#basics)
+3. [Preliminaries](#preliminaries) 
+4. [Runtime Development](#substrate-runtime-development)
+5. [Polkadot JS API](#polkadot-js-api)
+6. [Smart Contracts](#smart-contract)
+
+Each section contains basic information on each topic, with links to corresponding documentation for you to dig deeper. Within each section, you'll find a mix of **quizzes** and **labs** to test your knowledge as your progress through the map. The goal with the labs and quizzes is to help you consolidate what you've learnt and put it to practice with some hands-on activities.
 
 ## Introduction
 
 ### Why Substrate? (Substrate Blockchain Runtime vs Smart Contract)
 
-One question we often get is why learning Substrate framework when we can write smart contracts.
+One question we often get is why learn the Substrate framework when we can write smart contracts to build decentralized applications?
 
-Substrate framework and writing smart contracts are two different approaches to building
-"decentralized applications".
+The short answer is that using the Substrate framework and writing smart contracts are two different approaches.
 
-Traditional smart contract platform allows users to publish additional logic on top of some core
+Traditional smart contract platforms allow users to publish additional logic on top of some core
 blockchain logic. Since smart contract logic can be published by anyone, including malicious actors
-and inexperienced developers, there are a number of intentional safe guards and restriction built
-around these public smart contract platform. For example:
+and inexperienced developers, there are a number of intentional safe guards and restrictions built
+around these public smart contract platforms. For example:
 
-- **Fees**: Ensuring that contract users are charged for the computation and storage they force on
-  the computers running their contract, and not allowed to abuse the block creators.
+- **Fees**: Smart contract developers must ensure that contract users are charged for the computation and storage they impose on
+  the computers running their contract. With fees, block creators are protected from abuse of the network.
 
-- **Sandboxed**: A contract is not able to modify core blockchain storage or the storage of other
+- **Sandboxed**: A contract is not able to modify core blockchain storage or storage items of other
   contracts directly. It's power is limited to only modifying it's own state, and the ability to
   make outside calls to other contracts or runtime functions.
 
-- **Reversion**: A contract can be prone to have situations which lead to logical errors. You will
-  need additional pattern such as splitting logic and data so you can upgrade your smart contract
-  logic seamlessly.
+- **Reversion**: Contracts can be prone to undesirable situations that lead to logical errors when wanting 
+  to revert or upgrade them. Developers need to learn additional patterns such as splitting 
+  their contract's logic and data to ensure seamless upgrades.
 
-These different overheads makes running contracts slower and more costly, but again, the "target
-audience" for contract development is different than runtime developers.
+These different overheads makes running smart contracts slower and more costly. However, it's important to 
+consider the different developer audiences for contract development versus Substrate runtime developement.
 
-But contracts allows your community to extend and develop on top of your runtime logic without
-needing to go through all the craziness of proposals, runtime upgrades, etc... It may even be used
-as a testing grounds for future runtime changes, but done in a way that isolates your network from
-any of the growing pains or errors which may occur.
+Building decentralized applications with smart contracts allows your community to extend and 
+develop on top of your runtime logic without needing to go through all the craziness of proposals, runtime 
+upgrades, etc... It may even be used as a testing grounds for future runtime changes, but done in a way that 
+isolates your network from any of the growing pains or errors which may occur.
 
-In summary, smart contracts:
+In summary, smart contract development:
 
-- Are inherently safer to the network.
-- Have built in economic incentives and transaction fee mechanism built-in not under direct
-  control of smart contract author.
-- Have computational overhead to support graceful failures in logic.
-- Have a lower bar to entry for development, and enable faster pace of community interaction.
+- Is inherently safer to the network.
+- Provides built-in economic incentives and transaction fee mechanisms built-in which can't be directly
+  controlled by the smart contract author.
+- Provides computational overhead to support graceful logical failures.
+- Has a low barrier to entry for developers and enables a faster pace of community interaction.
 
 ---
 
-On the other hand, Substrate runtime development afford none of these protections or safe guards. As
-a runtime developer, you have total control on how the blockchain behave, but the bar to entry on
-the code you produce also jumps way up.
+On the other hand, Substrate runtime development offers none of these protections or safe guards. As
+a runtime developer, you have total control on how the blockchain behaves &mdash; but the barrier to entry 
+jumps way up.
 
-You have full control of the underlying logic that each node on your network will run. You have full
-access to each and every storage item across all of your modules, which you can modify and control.
+Susbtrate is a _framework_ for building blockchains, which almost makes comparing it to smart contract development like comparing apples and oranges. With this framework, developers _can_ build smart contracts
+but this is only a tiny fraction of using Substrate to its full potential.
+ 
+With Substrate, you have full control on the underlying logic that your network's nodes will run. You also 
+have full access for modifying and controlling each and every storage item across your runtime modules. 
+Developers building with Subsrate have more freedom to implement custom logic by leveraging all sorts of concepts you'll discover as you progress through this map.
 
-We also have a mechanism of allowing the Substrate runtime (a.k.a. state transition function, or
+Substrate also has a mechanism of allowing the Substrate runtime (a.k.a. state transition function, or
 STF) to be upgraded with a single transaction instead of having to organize a community hard-fork.
-This is one of the prominent features when Substrate is being developed.
+This is one of Substrate's prominent features by design.
 
 In summary, runtime development:
 
-- Provide low level access to your entire blockchain.
-- Have removed the overhead of built-in safety for performance.
-- Have a high bar to entry for developers.
+- Provides low level access to your entire blockchain.
+- Removes the overhead of built-in safety for performance.
+- Has a higher barrier of entry for developers.
+- Provides flexibility to customize full-stack application logic.
 
-> For more detail, refer to
+> To learn more about using smart contracts within Substrate, refer to the
 > [**Smart Contract - Overview**](https://substrate.dev/docs/en/knowledgebase/smart-contracts/overview)
-> and the
-> [Polkadot Builders Guide](https://wiki.polkadot.network/docs/build-build-with-polkadot#what-is-the-difference-between-building-a-parachain-a-parathread-or-a-smart-contract)
-> Content on the above partially came from this resources.
+> page as well as the
+> [Polkadot Builders Guide](https://wiki.polkadot.network/docs/build-build-with-polkadot#what-is-the-difference-between-building-a-parachain-a-parathread-or-a-smart-contract).
 
 ### Navigating Our Documentations
 
