@@ -144,7 +144,7 @@ Substrate runtime development. The site consists of:
   every Substrate learner to go through.**
 
 - [How-to Guides](https://substrate.dev/substrate-how-to-guides/) /
-  [Recipes](https://substrate.dev/recipes): These ressources are like the O'Reilly cookbook series written in a
+  [Recipes](https://substrate.dev/recipes): These resources are like the O'Reilly cookbook series written in a
   task-oriented way for readers to get the job done. Examples include: setting up proper weight functions for
   extrinsics; using off-chain workers to fetch HTTP requests; writing tests for your pallets; etc. It can also be read from
   cover-to-cover for developers to learn advanced Substrate development techniques. We are slowly
@@ -161,7 +161,7 @@ to any Substrate node. **Developers are encouraged to start new Substrate projec
 If you face any technical difficulties and need support, feel free to join the
 [Substrate Technical matrix channel](https://app.element.io/#/room/!HzySYSaIhtyWrwiwEV:matrix.org) and ask your questions there.
 
-**Additional ressources:**
+**Additional resources:**
 
 - [**Polkadot Wiki**](https://wiki.polkadot.network/): this site documents the specific behavior and
 mechanisms of the Polkadot network, which is built using Substrate. There, you can learn about how Polkadot
@@ -437,7 +437,7 @@ A lot 😄
   Substrate is the capability of becoming a parachain for relay chains like Polkadot. You can develop your own
   application-specific logic in your chain and rely on the validator community of the relay chain
   to secure your network, instead of building another validator community yourself. Learn more
-  with the following ressources:
+  with the following resources:
 
   - [Cross-chain Message Passing (XCMP)](https://wiki.polkadot.network/docs/en/learn-crosschain),
     how parachain and relay-chain communicate to each others
