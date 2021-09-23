@@ -2,7 +2,7 @@
 
 - [Substrate Knowledge Map for Hackathon Participants](#substrate-knowledge-map-for-hackathon-participants)
   - [Introduction](#introduction)
-    - [Smart contract development)](#smart-contract-development)
+    - [Smart contract development](#smart-contract-development)
     - [Substrate runtime development](#Substrate-runtime-development)
     - [Navigating the documentations](#navigating-our-documentations)
     - [Quiz #1](#quiz-1)
