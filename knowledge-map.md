@@ -2,24 +2,25 @@
 
 - [Substrate Knowledge Map for Hackathon Participants](#substrate-knowledge-map-for-hackathon-participants)
   - [Introduction](#introduction)
-    - [Why Substrate? \(Substrate Blockchain Runtime vs Smart Contract\)](#why-substrate-substrate-blockchain-runtime-vs-smart-contract)
-    - [Navigating Our Documentations](#navigating-our-documentations)
+    - [Smart contract development)](#smart-contract-development)
+    - [Substrate runtime development](#Substrate-runtime-development)
+    - [Navigating the documentations](#navigating-our-documentations)
     - [Quiz #1](#quiz-1)
   - [Basics](#basics)
-    - [Setup Your Local Development Environment](#setup-your-local-development-environment)
+    - [Set up your local development environment](#setup-your-local-development-environment)
     - [Lab #1](#lab-1)
-    - [Interact with a Substrate Network using Polkadot-JS Apps](#interact-with-a-substrate-network-using-polkadot-js-apps)
+    - [Interact with a Substrate network using Polkadot-JS apps](#interact-with-a-substrate-network-using-polkadot-js-apps)
     - [Quiz #2](#quiz-2)
     - [Lab #2](#lab-2)
     - [Lab #3](#lab-3)
   - [Preliminaries](#preliminaries)
     - [Rust](#rust)
-    - [How Blockchain Works](#how-blockchain-works)
+    - [How blockchains work](#how-blockchain-works)
     - [Quiz #3](#quiz-3)
-  - [Substrate Runtime Development](#substrate-runtime-development)
-    - [High Level Architecture](#high-level-architecture)
+  - [Substrate runtime development](#substrate-runtime-development)
+    - [High level architecture](#high-level-architecture)
     - [Quiz #4](#quiz-4)
-    - [Runtime Development Topics](#runtime-development-topics)
+    - [Runtime development topics](#runtime-development-topics)
     - [Lab #4](#lab-4)
     - [Lab #5](#lab-5)
     - [Lab #6](#lab-6)
@@ -27,11 +28,11 @@
   - [Polkadot JS API](#polkadot-js-api)
     - [Lab #7](#lab-7)
     - [Quiz #6](#quiz-6)
-  - [Smart Contract](#smart-contract)
+  - [Smart contract](#smart-contract)
     - [Using **ink!**](#using-ink)
     - [Quiz #7](#quiz-7)
-  - [What We Do Not Cover](#what-we-do-not-cover)
-  - [Terms Clarification](#terms-clarification)
+  - [What we do not cover](#what-we-do-not-cover)
+  - [Terms clarification](#terms-clarification)
 
 <!-- /MarkdownTOC -->
 
@@ -74,7 +75,7 @@ Its power is limited to only modifying its own state, and the ability to make ou
 - **Reversion**: Contracts can be prone to undesirable situations that lead to logical errors when wanting to revert or upgrade them. 
 Developers need to learn additional patterns such as splitting their contract's logic and data to ensure seamless upgrades.
 
-These safeguards and restritions make running smart contracts slower and more costly. However, it's important to consider the different developer audiences for contract development versus Substrate runtime development.
+These safeguards and restrictions make running smart contracts slower and more costly. However, it's important to consider the different developer audiences for contract development versus Substrate runtime development.
 
 Building decentralized applications with smart contracts allows your community to extend and develop on top of your runtime logic without worrying about proposals, runtime upgrades, and so on. 
 You can also use smart contracts as a testing ground for future runtime changes, but done in an isolated way that protects your network from any errors the changes might introduce.
@@ -93,7 +94,7 @@ Unlike traditional smart contract development, Substrate runtime development off
 Instead, as a runtime developer, you have total control over how the blockchain behaves.
 However, this level of control also means that there is a higher barrier to entry.
 
-Susbtrate is a _framework_ for building blockchains, which almost makes comparing it to smart contract development like comparing apples and oranges. 
+Substrate is a _framework_ for building blockchains, which almost makes comparing it to smart contract development like comparing apples and oranges. 
 With the Substrate framework, developers _can_ build smart contracts but that is only a fraction of using Substrate to its full potential.
  
 With Substrate, you have full control over the underlying logic that your network's nodes will run. 
@@ -186,7 +187,7 @@ Also refer to:
 
 👉 **Complete [Lab #1: Run a Substrate node](labs/01-run-a-substrate-node.md)**
 
-### Interact with a Substrate network using Polkadot-JS Apps
+### Interact with a Substrate network using Polkadot-JS apps
 
 [Polkadot JS Apps](http://polkadot.js.org/apps) is the canonical front-end to interact with any Substrate-based chain.
 
@@ -252,10 +253,9 @@ familiarize yourself with:
   necessarily be writing your own macros, but you'll be using a lot of Substrate and FRAME's built-in macros to write
   your blockchain runtime.
 
-### How Blockchain Works
+### How blockchains work
 
-Given that you'll be writing a blockchain runtime, you will need to know what a blockchain is, and how it
-works. 
+Given that you'll be writing a blockchain runtime, you need to know what a blockchain is, and how it works. 
 The [**Web3 Blockchain Fundamental MOOC](https://www.youtube.com/playlist?list=PLxVihxZC42nF_MCN9PTvZMIifRjx9cZ2J) Youtube video
 series provides a good basis for understanding key blockchain concepts and how blockchains work.
 
@@ -265,9 +265,9 @@ The lectures we recommend you watch are: lectures 1 - 7 and lecture 10. That's 8
 
 👉 **Complete [Quiz #3](quizzes/03-rust.md)**
 
-## Substrate Runtime Development
+## Substrate runtime development
 
-### High Level Architecture
+### High level architecture
 
 To know more about the high level architecture of Substrate, please go through the Knowledge Base articles on
 **[Getting Started: Overview](https://substrate.dev/docs/en/)** and
@@ -295,7 +295,7 @@ cover them in detail except for mentioning their existence.
 
 👉 **Complete [Quiz #4](quizzes/04-architecture.md)**
 
-### Runtime Development Topics
+### Runtime development topics
 
 In our [Developer Hub](https://substrate.dev/), we have a thorough coverage on various
 subjects you need to know to develop with Substrate. So here we just list out the key topics and
@@ -374,7 +374,7 @@ is an example of using Polkadot JS API in a React front-end (a
 
 👉 **Complete [Quiz #6: Using Polkadot-JS API](quizzes/06-polkadot-js-api.md)**
 
-## Smart Contracts
+## Smart contracts
 
 Learn about the difference between smart contract development vs Substrate runtime development, and
 when to use each [here](https://substrate.dev/docs/en/knowledgebase/smart-contracts).
@@ -390,7 +390,7 @@ In Substrate, you can program smart contracts using [ink!](https://paritytech.gi
 
 👉 **Complete [Quiz #7: Using ink!](quizzes/07-using-ink!.md)**
 
-## What We Do Not Cover
+## What we do not cover
 
 A lot 😄
 
@@ -431,7 +431,7 @@ A lot 😄
     how parachain and relay-chain communicate to each others
   - [Workshop: Using cumulus to build your parachain](https://substrate.dev/cumulus-workshop)
 
-## Terms Clarification
+## Terms clarification
 
 - **Substrate**: the blockchain development **framework** built for writing highly customized, domain-specific
   blockchains.
