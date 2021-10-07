@@ -40,3 +40,11 @@ This quiz covers the following parts of the Substrate Knowledge Map:
 - [ ] B. If I want to create my own, I can use FRAME to easily write logic for my runtime.
 - [ ] C. I can import pallets using Rusts crate system.
 - [ ] D. All pallets can be instantiate multiple times in runtime.
+
+### 6. "Pallets" in FRAME are really just \_ .
+
+- [ ] A. Modules denoted `mod` as Rust understands them.
+- [ ] B. Powered by a collection of macros that use Substrate's core libraries for developers to easily access.
+- [ ] C. A modular way to split up runtime logic, so they can be composed for different uses.
+- [ ] D. Modules that have to fulfill a certain structure to be used in a Substrate chain's runtime logic.
+- [ ] E. All of the above.
