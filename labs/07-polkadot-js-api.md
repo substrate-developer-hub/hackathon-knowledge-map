@@ -8,7 +8,7 @@ Read through the task and submit your lab results as per the instructions under 
 
 ## Task
 
-Open [`07-js-components/index.js`](07-js-components/index.js). There are **six** places marked with `TODO` with null assignment. Update the assignment to use Polkadot-JS API to retrieve the proper value.
+Open [`07-js-component/index.js`](07-js-component/index.js). There are **six** places marked with `TODO` with null assignment. Update the assignment to use Polkadot-JS API to retrieve the proper value.
 
 Most return values from Polkadot-JS API are Promises, so use `await` to get the resolved values.
 
