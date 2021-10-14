@@ -1,4 +1,6 @@
-<img src="./assets/hackathon-apac-banner.png" alt="Hackathon Banner" height="300" />
+<div style="text-align: center">
+  <img src="./assets/hackathon-apac-banner.png" alt="Hackathon Banner" height="300" />
+</div>
 
 <details>
   <summary>Table of Content</summary>
