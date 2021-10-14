@@ -1,41 +1,48 @@
-<!-- MarkdownTOC autolink="true" -->
+<img src="./assets/hackathon-apac-banner.png" alt="Hackathon Banner" height="300" />
 
-- [Substrate Knowledge Map for Hackathon Participants](#substrate-knowledge-map-for-hackathon-participants)
-  - [Introduction](#introduction)
-    - [Smart contract development](#smart-contract-development)
-    - [Substrate runtime development](#substrate-runtime-development)
-  - [Navigating the documentation](#navigating-the-documentation)
-  - [Additional resources](#additional-resources)
-    - [Quiz #1](#quiz-1)
-  - [Basics](#basics)
-    - [Set up your local development environment](#set-up-your-local-development-environment)
-    - [Lab #1](#lab-1)
-    - [Interact with a Substrate network using Polkadot-JS apps](#interact-with-a-substrate-network-using-polkadot-js-apps)
-    - [Quiz #2](#quiz-2)
-    - [Lab #2](#lab-2)
-    - [Lab #3](#lab-3)
-  - [Preliminaries](#preliminaries)
-    - [Rust](#rust)
-    - [How blockchains work](#how-blockchains-work)
-    - [Quiz #3](#quiz-3)
-  - [Substrate runtime development](#substrate-runtime-development-1)
-    - [High level architecture](#high-level-architecture)
-    - [Quiz #4](#quiz-4)
-    - [Runtime development topics](#runtime-development-topics)
-    - [Lab #4](#lab-4)
-    - [Lab #5](#lab-5)
-    - [Lab #6](#lab-6)
-    - [Quiz #5](#quiz-5)
-  - [Polkadot JS API](#polkadot-js-api)
-    - [Lab #7](#lab-7)
-    - [Quiz #6](#quiz-6)
-  - [Smart contracts](#smart-contracts)
-    - [Quiz #7](#quiz-7)
-  - [What we do not cover](#what-we-do-not-cover)
-  - [Terms clarification](#terms-clarification)
-  - [Others](#others)
+<details>
+  <summary>Table of Content</summary>
 
-<!-- /MarkdownTOC -->
+  <!-- MarkdownTOC autolink="true" -->
+
+  - [Substrate Knowledge Map for Hackathon Participants](#substrate-knowledge-map-for-hackathon-participants)
+    - [Introduction](#introduction)
+      - [Smart contract development](#smart-contract-development)
+      - [Substrate runtime development](#substrate-runtime-development)
+    - [Navigating the documentation](#navigating-the-documentation)
+    - [Additional resources](#additional-resources)
+      - [Quiz #1](#quiz-1)
+    - [Basics](#basics)
+      - [Set up your local development environment](#set-up-your-local-development-environment)
+      - [Lab #1](#lab-1)
+      - [Interact with a Substrate network using Polkadot-JS apps](#interact-with-a-substrate-network-using-polkadot-js-apps)
+      - [Quiz #2](#quiz-2)
+      - [Lab #2](#lab-2)
+      - [Lab #3](#lab-3)
+    - [Preliminaries](#preliminaries)
+      - [Rust](#rust)
+      - [How blockchains work](#how-blockchains-work)
+      - [Quiz #3](#quiz-3)
+    - [Substrate runtime development](#substrate-runtime-development-1)
+      - [High level architecture](#high-level-architecture)
+      - [Quiz #4](#quiz-4)
+      - [Runtime development topics](#runtime-development-topics)
+      - [Lab #4](#lab-4)
+      - [Lab #5](#lab-5)
+      - [Lab #6](#lab-6)
+      - [Quiz #5](#quiz-5)
+    - [Polkadot JS API](#polkadot-js-api)
+      - [Lab #7](#lab-7)
+      - [Quiz #6](#quiz-6)
+    - [Smart contracts](#smart-contracts)
+      - [Quiz #7](#quiz-7)
+    - [What we do not cover](#what-we-do-not-cover)
+    - [Terms clarification](#terms-clarification)
+    - [Others](#others)
+
+    <!-- /MarkdownTOC -->
+
+</details>
 
 # Substrate Knowledge Map for Hackathon Participants
 
@@ -146,7 +153,7 @@ The site consists of:
     - Setting up proper weight functions for extrinsic calls.
     - Using off-chain workers to fetch HTTP requests.
     - Writing tests for your pallets
-    It can also be read from
+      It can also be read from
 
 - [API docs](https://docs.substrate.io/rustdocs): Substrate API reference documentation.
 
