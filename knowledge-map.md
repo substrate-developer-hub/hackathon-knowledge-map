@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/LE-Event-Poster.png" alt="Hackathon Banner" height="400" />
+  <img src="./assets/event-poster.png" alt="Hackathon Banner" height="400" />
 </p>
 
 <details>
