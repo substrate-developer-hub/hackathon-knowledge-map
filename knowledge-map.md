@@ -406,8 +406,8 @@ A lot 😄
 - [Pallet coupling](https://docs.substrate.io/main-docs/build/pallet-coupling/),
   calling one pallet's functions from another pallet via trait specification.
 
-- [Blockchain Consensus Mechansim](https://wiki.polkadot.network/docs/en/learn-consensus), and a
-  guide on customizing it to proof-of-work [here](https://docs.substrate.io/how-to-guides/v3/consensus/pow).
+- [Blockchain Consensus Mechanism](https://wiki.polkadot.network/docs/en/learn-consensus), and a
+  guide on customizing it to proof-of-work [here](https://docs.substrate.io/reference/how-to-guides/consensus-models/add-proof-of-work-consensus/).
 
 - [Parachains](https://wiki.polkadot.network/docs/en/learn-parachains): one key feature of
   Substrate is the capability of becoming a parachain for relay chains like Polkadot. You can develop your own
