@@ -315,7 +315,7 @@ resources to know the fundamentals of runtime development.
   It is about composing multiple pallets (can be understood as Rust modules) together in the runtime
   and hooking them up together.
 
-- **Transaction lifecycle**](https://docs.substrate.io/main-docs/fundamentals/transaction-lifecycle/): this article describes the lifecycle of a transaction in a Substrate blockchain.
+- [**Transaction lifecycle**](https://docs.substrate.io/main-docs/fundamentals/transaction-lifecycle/): this article describes the lifecycle of a transaction in a Substrate blockchain.
 
 - [**Pallet attributes and macros**](https://docs.substrate.io/main-docs/build/custom-pallets/#pallet-macros-and-attributes),
   this article describes what the basic structure of a Substrate pallet consists of.
