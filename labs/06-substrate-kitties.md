@@ -12,7 +12,7 @@ Read through the task and submit your lab results as per the instructions under 
 
 ## Task
 
-Complete parts I - II of [the Kitties tutorial](https://docs.substrate.io/tutorials/v3/kitties/pt1).
+Complete the [Kitties collectables workshop](https://sacha-l.github.io/substrate-collectables-workshop/).
 
 ## Submission Instructions
 
@@ -20,6 +20,5 @@ Complete parts I - II of [the Kitties tutorial](https://docs.substrate.io/tutori
 another one is the customized Front-end Template. Please submit the link to the github repo at the
 directory level with Substrate Node and Front-end Template.
 
-2. On the customized front-end template, create 3 kitties using Alice account. Then transfer one
-kitty to Bob, and make a screenshot. In the screenshot please include the emitted event of
-`KittyTransferred` in **Events** section.
+2. On the customized front-end template, create 3 kitties using Alice's account. Then transfer one
+kitty to Bob, and take a screenshot. In the screenshot please include the emitted `KittyTransferred` event.
