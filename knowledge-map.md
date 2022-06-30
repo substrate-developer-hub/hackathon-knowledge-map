@@ -395,7 +395,7 @@ A lot 😄
 - About [transaction weight and fee](https://docs.substrate.io/main-docs/build/tx-weights-fees/), and
   [benchmarking your runtime to determine the proper transaction cost](https://docs.substrate.io/main-docs/test/benchmark/).
 
-- [Off-chain operations](https://docs.substrate.io/main-docs/fundamentals/offchain-operations/)
+- [Offchain operations](https://docs.substrate.io/main-docs/fundamentals/offchain-operations/)
 
   There are certain limits to on-chain logic. For instance, computation cannot be too
   intensive that it affects the block output time, and computation must be deterministic. This
