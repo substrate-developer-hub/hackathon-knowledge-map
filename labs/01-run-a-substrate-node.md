@@ -6,7 +6,7 @@ This lab is a hands-on workshop covering the concepts you've learnt in the first
 
 ## Task
 
-Please follow the [**Create Your First Substrate Chain**](https://docs.substrate.io/tutorials/v3/create-your-first-substrate-chain) tutorial to setup your local development environment.
+Please follow the [**Build a blockchain**](https://docs.substrate.io/tutorials/get-started/build-local-blockchain/) tutorial to setup your local development environment.
 
 ## Submission Instructions
 

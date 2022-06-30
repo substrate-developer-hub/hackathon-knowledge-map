@@ -2,7 +2,7 @@
 
 ## Task
 
-Complete the [Build a Proof-of-Existence Decentralized Application](https://docs.substrate.io/tutorials/v3/proof-of-existence) tutorial, a good tutorial showcasing end-to-end hands-on dApp development in Substrate, where you'll also learn how to build a simple front-end and interact with it.
+Complete the [Build a Proof-of-Existence Decentralized Application](https://docs.substrate.io/tutorials/work-with-pallets/custom-pallet/) tutorial, a good tutorial showcasing end-to-end hands-on dApp development in Substrate, where you'll also learn how to build a simple front-end and interact with it.
 
 ## Submission Instructions
 
